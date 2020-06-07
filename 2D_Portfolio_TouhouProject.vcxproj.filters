@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>MainGame\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>GameFramework2D\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>GameFramework2D\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>MainGame\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>GameFramework2D\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="singleTonBase.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>GameFramework2D\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>GameFramework2D\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameFramework2D">
+      <UniqueIdentifier>{1259c323-6776-46dc-acbe-60eb2e50c56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{d118b4c6-0593-4716-987a-4fd8ecad6a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{cea40dc6-5811-4c3c-b38d-49845b4d0bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameNode">
+      <UniqueIdentifier>{b94e5df8-a773-41cb-a86e-71c5b3a2800f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Image">
+      <UniqueIdentifier>{db12c994-6afd-46ad-a7f2-97b91fae0989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Manager">
+      <UniqueIdentifier>{1621f43a-328f-4910-9a47-d95aaa44100a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Utility">
+      <UniqueIdentifier>{0b541db2-0cbc-463f-9591-9524061b4b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Camera">
+      <UniqueIdentifier>{f781bcc4-63b6-4135-9b03-68efac93960f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
